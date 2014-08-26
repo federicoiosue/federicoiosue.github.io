@@ -10,14 +10,21 @@ a {
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
-	display: inline-block;
-	
+}
+
+h3 {
+	font-size: 20px;
 }
 
 .title {
 	position: absolute;
 	margin-left: 20px;
 	margin-top: 20px;
+}
+
+.title_text {
+	display: inline-block;
+	margin-left: 10px;
 }
 
 .wrapper {
