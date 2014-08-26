@@ -1,5 +1,5 @@
 * {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #383838;
 }
 
@@ -7,16 +7,15 @@ a {
 	text-decoration: none;
 }
 
-h1 {
-	font-family: 'Roboto', sans-serif;
+.title {
 	font-size: 30px;
 }
 
-h3 {
-	font-size: 20px;
+.subtitle {
+	font-size: 17px;
 }
 
-.title {
+.title_block {
 	position: absolute;
 	margin-left: 20px;
 	margin-top: 20px;
@@ -25,6 +24,8 @@ h3 {
 .title_text {
 	display: inline-block;
 	margin-left: 10px;
+	vertical-align: top;
+	margin-top: 20px;
 }
 
 .wrapper {
@@ -58,11 +59,8 @@ h3 {
 	margin-right:30px;
 }
 
-.fade_in{
-
-}
-
 .item_text{
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 21px;
 	font-weight: normal;
 	margin: 10px 0 10px;
