@@ -41,7 +41,7 @@ a {
 
 .middle {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .row {
@@ -65,4 +65,13 @@ a {
 	font-weight: normal;
 	margin: 10px 0 10px;
 	padding: 0;
+}
+
+.footer {
+    display: table-row;
+    
+}
+
+.footer p {
+	margin-top: 7%;
 }
