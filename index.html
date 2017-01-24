@@ -23,14 +23,9 @@
 		
 		<script type="text/javascript">
 			function trackOutboundLink(link, category, action) { 
-			 
-			try { 
-				ga('send', 'event', category, action, link);
-			} catch(err){}
-			 
-			setTimeout(function() {
-			document.location.href = link.href;
-			}, 100);
+				try { 
+					ga('send', 'event', category, action, link);
+				} catch(err){}
 			}
 		</script>
 
@@ -59,7 +54,7 @@
 	<div class="wrapper">
 		<div class="middle">
 			<div class="row">
-				<a href="http://it.linkedin.com/pub/federico-iosue/28/293/42a/en" onClick="trackOutboundLink(this, 'Outbound Links', 'LinkedIn'); return false;">
+				<a href="http://it.linkedin.com/pub/federico-iosue/28/293/42a/en" target="_blank" onClick="trackOutboundLink(this, 'Outbound Links', 'LinkedIn');">
 					<div class="item" title="LinkedIn Profile" style="z-index:-1000;">
 						<div class="fade_in">
 							<img src="images/linkedin.png"  onmouseover="hover(this, 'images/linkedin_hover.png');" onmouseout="unhover(this, 'images/linkedin.png');"/>
@@ -71,7 +66,7 @@
 					</div>
 				</a>
 			
-				<a href="http://www.github.com/federicoiosue" onClick="trackOutboundLink(this, 'Outbound Links', 'GitHub'); return false;">
+				<a href="http://www.github.com/federicoiosue" target="_blank" onClick="trackOutboundLink(this, 'Outbound Links', 'GitHub');">
 					<div class="item" title="Github Profile">
 						<div class="fade_in">
 							<img src="images/github.png" onmouseover="hover(this, 'images/github_hover.png');" onmouseout="unhover(this, 'images/github.png');"/>
@@ -83,7 +78,7 @@
 					</div>
 				</a>
 				
-				<a href="https://plus.google.com/u/0/+FedericoIosue81" onClick="trackOutboundLink(this, 'Outbound Links', 'Google+'); return false;">
+				<a href="https://plus.google.com/u/0/+FedericoIosue81" target="_blank" onClick="trackOutboundLink(this, 'Outbound Links', 'Google+');">
 					<div class="item" title="Google+ Profile">
 						<div class="fade_in">
 							<img src="images/gplus.png" onmouseover="hover(this, 'images/gplus_hover.png');" onmouseout="unhover(this, 'images/gplus.png');"/>
