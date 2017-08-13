@@ -75,3 +75,7 @@ a {
 .footer p {
 	margin-top: 7%;
 }
+
+.footer p a {
+	color: gray;
+}
