@@ -44,6 +44,10 @@ a {
     vertical-align: bottom;
 }
 
+img.circle {
+	border-radius: 50%;
+}
+
 .row {
 	display: inline-block;
 	width: 100%;
