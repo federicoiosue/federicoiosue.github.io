@@ -7,10 +7,6 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	opacity: 0.8;
-}
-
 .title {
 	font-size: 30px;
 }
@@ -65,6 +61,15 @@ img.circle {
 	display: inline-block;
 	margin-left:30px;
 	margin-right:30px;
+}
+
+.item:hover {
+	opacity: 0.7;
+}
+
+.item img {
+	width: 150px;
+	height: 150px;
 }
 
 .item_text{
